@@ -16,4 +16,8 @@ See also video in media folder.
 
 ![Image of Plugin UI](media/SurfForce_UI.png)
 
+<video width="820" height="444" controls>
+  <source src="https://raw.githubusercontent.com/MattE4/Abaqus_Plugin_Surface-Force/master/media/Plugin_SurfaceForce.mp4" type="video/mp4">
+</video>
+
 Usage at your own risk.
