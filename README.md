@@ -8,9 +8,9 @@ This Plug-In allows to quickly apply a general force to faces. Why is that usefu
 
 Unfortunately there is no built-in option to apply a general force directly to selected faces. So this is what my Plug-In is for. When executed, it will calculate the area of the selected faces, the force magnitude and the resulting force direction. This is used to create the resulting Surface Traction load.
 
-The short video below shows that on a simple example. Be aware that the Plug-In is only for creating the load. Afterwards you have the Surface Traction and you can edit, suppress, move, delete, etc. that feature.
+Be aware that the Plug-In is only for creating the load. Afterwards you have the Surface Traction and you can edit, suppress, move, delete, etc. that feature.
 
-See also video in media folder.
+See also demo video in media folder.
 
 <br>
 
