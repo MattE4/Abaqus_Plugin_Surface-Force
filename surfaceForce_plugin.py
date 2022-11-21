@@ -12,8 +12,8 @@ toolset.registerGuiMenuButton(
     messageId=AFXMode.ID_ACTIVATE,
     icon=None,
     applicableModules=['Load'],
-    version='0.9',
-    author='Matthias Ernst, Dassault Systemes Germany',
+    version='1.0',
+    author='Matthias Ernst',
     description='Plug-In to apply general force to face region. Supports only face geometry!'\
                  '\nMake sure to confirm face selection (one or multiple faces) with DONE button or middle mouse button. '\
                  '\nAlso check if the chosen step and the other data are correct. '\
