@@ -19,6 +19,6 @@ toolset.registerGuiMenuButton(
                  '\nAlso check if the chosen step and the other data are correct. '\
                  '\nThe Plug-In calculates the face area and creates a Surface Traction load. See control output in Message Area. '\
                  '\nDelete or edit the Surface Traction if needed. The Load Manager also allows to move the load to another step.'\
-                 '\n\nThis Plug-In is not an official Dassault Systemes product.',
+                 '\n\nUsage at your own risk.',
     helpUrl='N/A'
 )
