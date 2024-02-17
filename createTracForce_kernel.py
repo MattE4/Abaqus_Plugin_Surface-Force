@@ -1,3 +1,4 @@
+from __future__ import print_function, division
 from abaqus import *
 from abaqusConstants import *
 from caeModules import *
@@ -16,7 +17,7 @@ kw_update=None):
 
 ##########################################################################################
 
-	#print '\n*********************'
+	#print '\n*** Control Output ***'
 	#print kw_name, kw_step, kw_faces, kw_fx, kw_fy, kw_fz, kw_csys, kw_amplitude, kw_rotation, kw_update
 
 ##########################################################################################
@@ -153,7 +154,7 @@ kw_update=None):
 		fyn, fzn)), distributionType=UNIFORM, field='', localCsys=kw_csys, 
 		traction=GENERAL, follower=follow, resultant=res)
 	
-	print '\n'+80*'*'
-	print 'Created a Surface Traction named: %s' % (lname)
-	print 'Entered Forces: (%.4f, %.4f, %.4f) || F-Magnitude: %.4f || Area: %.4f || SurfTrac Mag: %f || Direction: (%.5f, %.5f,%.5f)' % (fx, fy, fz, fres, farea, strac, fxn, fyn, fzn)
-	print 'Step: %s || Amplitude: %s || CSYS: %s' % (kw_step, kw_amplitude, pcsys)
+	print('\n'+80*'*')
+	print('Created a Surface Traction named: %s' % (lname))
+	print('Entered Forces: (%.4f, %.4f, %.4f) || F-Magnitude: %.4f || Area: %.4f || SurfTrac Mag: %f || Direction: (%.5f, %.5f, %.5f)' % (fx, fy, fz, fres, farea, strac, fxn, fyn, fzn))
+	print('Step: %s || Amplitude: %s || CSYS: %s' % (kw_step, kw_amplitude, pcsys))
